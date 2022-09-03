@@ -1,4 +1,5 @@
 
+package programmers;
 public class programmers_30_12943 {
     public int solution(long num) {
         int answer = -1;

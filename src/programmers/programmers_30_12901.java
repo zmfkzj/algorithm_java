@@ -1,10 +1,12 @@
+package programmers;
+
 import java.time.*;
 
 class programmers_30_12901 {
     public String solution(int a, int b) {
         LocalDate date = LocalDate.of(2016,a,b);
         int day = date.getDayOfWeek().getValue();
-        String answer = new String();
+        String answer = "";
         switch (day){
             case 1:
                 answer = "MON";

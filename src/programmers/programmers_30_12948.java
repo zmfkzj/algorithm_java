@@ -1,3 +1,4 @@
+package programmers;
 import java.util.Scanner;
 class programmers_30_12948 {
     public String solution(String phone_number) {

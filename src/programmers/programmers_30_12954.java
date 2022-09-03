@@ -1,3 +1,4 @@
+package programmers;
 import java.util.Arrays;
 
 class programmers_30_12954 {

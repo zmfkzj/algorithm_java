@@ -1,3 +1,4 @@
+package programmers;
 public class programmers_30_12925 {
     public int getStrToInt(String s){
         int answer=0;
@@ -18,7 +19,7 @@ public class programmers_30_12925 {
         return answer*sign;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         programmers_30_12925 strToInt = new programmers_30_12925();
         System.out.println(strToInt.getStrToInt("-1234"));
         System.out.println(strToInt.getStrToInt("1234"));

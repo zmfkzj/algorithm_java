@@ -1,3 +1,4 @@
+package programmers;
 import java.util.HashSet;
 import java.util.Arrays;
 
@@ -11,7 +12,7 @@ public class programmers_30_86051 {
         base.removeAll(input);
         Integer answer = Arrays.stream(base.toArray()).reduce(0,(a, b)->a+(Integer) b, (a,b)->a+b);
 
-        return (int) answer;
+        return answer;
     }
 
     public static void main(String[] args){

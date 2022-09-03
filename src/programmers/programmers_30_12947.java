@@ -1,3 +1,4 @@
+package programmers;
 public class programmers_30_12947 {
     public boolean solution(int x) {
         int sum = 0;

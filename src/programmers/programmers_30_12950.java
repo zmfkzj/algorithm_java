@@ -1,3 +1,4 @@
+package programmers;
 class programmers_30_12950 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int col = arr1.length;

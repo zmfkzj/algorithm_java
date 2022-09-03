@@ -1,3 +1,4 @@
+package programmers;
 import java.util.HashMap;
 
 class programmers_30_42576 {

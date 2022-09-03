@@ -1,10 +1,11 @@
+package programmers;
 public class programmers_30_12944 {
     public double solution(int[] arr) {
         int sum = 0;
         double count = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
-            count = (double) i;
+            count = i;
         }
         double answer = sum / (count+1);
         return answer;

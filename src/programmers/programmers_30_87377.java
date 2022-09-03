@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,12 +18,7 @@ public class programmers_30_87377 {
                 }
             }
         }
-        int xmin = crossPoints.stream().min((p1,p2)->p1[0]-p2[0]).get()[0];
-        int xmax = crossPoints.stream().min((x1,x2)->x2[0]-p1[0]).get()[0];
-        int ymin = crossPoints.stream().min((x1,x2)->x1[0]-x2[0]).get()[0];
-        int ymax = crossPoints.stream().min((x1,x2)->x2[0]-x1[0]).get()[0];
         List<String> field = new ArrayList<>();
-        for
 
         String[] answer = {};
         return answer;
@@ -44,7 +41,7 @@ public class programmers_30_87377 {
 
     public static void main(String[] args){
         programmers_30_87377 inst = new programmers_30_87377();
-        System.out.println(inst.solution(new int[]{1,2,3,4,5}));
+//        System.out.println(inst.solution(new int[]{1,2,3,4,5}));
 
     }
 }

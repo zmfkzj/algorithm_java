@@ -1,3 +1,4 @@
+package programmers;
 class programmers_30_12934 {
     public long solution(long n) {
         double x = Math.sqrt(n);
